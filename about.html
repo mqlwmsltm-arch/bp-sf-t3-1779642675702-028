@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- BPAAS Design System & Theme -->
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    
+    <!-- SEO Meta Tags -->
+    <title>마포 셔츠룸 | 프라이빗 엔터테인먼트 공간 가이드</title>
+    <meta name="description" content="마포구에서 가장 세련된 엔터테인먼트 문화를 경험하세요. 평범한 밤이 아닌 격조 높은 '마포 셔츠룸'에서의 프라이빗한 시간을 소개합니다. 차별화된 서비스와 고급스러운 분위기를 느껴보세요.">
+    <meta name="keywords" content="마포 셔츠룸, 마포 엔터테인먼트, 마포 프라이빗 룸, 마포 1:1, 고급 룸살롱, 마포 밤문화">
+    <link rel="canonical" href="https://sf-t3-1779642675702-028.pages.dev/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-028.pages.dev/">
+    <meta property="og:title" content="마포 셔츠룸 | 프라이빗 엔터테인먼트 공간 가이드">
+    <meta property="og:description" content="평범한 밤을 넘어선 경험. 마포의 중심에서 만나는 프리미엄 셔츠룸의 모든 것.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Mapo+Shirt+Room+Preview">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sf-t3-1779642675702-028.pages.dev/">
+    <meta property="twitter:title" content="마포 셔츠룸 | 프라이빗 엔터테인먼트 공간 가이드">
+    <meta property="twitter:description" content="평범한 밤을 넘어선 경험. 마포의 중심에서 만나는 프리미엄 셔츠룸의 모든 것.">
+    <meta property="twitter:image" content="https://via.placeholder.com/1200x630.png?text=Mapo+Shirt+Room+Preview">
+
+    <style>
+        /* BPAAS Design System - Editorial Apple Style (Mono Chrome Theme) */
+        :root {
+            --color-bg-primary: #FFFFFF;
+            --color-bg-secondary: #F5F5F7;
+            --color-text-primary: #1D1D1F;
+            --color-text-secondary: #86868B;
+            --color-accent: #0071E3;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            --spacing-unit: 8px;
+            --container-width: 980px;
+            --border-radius: 18px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--color-bg-primary);
+            color: var(--color-text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            padding: 0 20px;
+        }
+
+        .nav-container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-logo {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: var(--color-text-primary);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--color-text-primary);
+            font-size: 0.8rem;
+            opacity: 0.8;
+            transition: opacity 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+        }
+
+        /* Main Layout */
+        main {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: var(--color-text-primary);
+            margin-bottom: 24px;
+            font-weight: 400;
+        }
+
+        .text-secondary {
+            color: var(--color-text-secondary);
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            text-align: center;
+            padding: 80px 0 60px 0;
+        }
+
+        /* Grid System */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        /* Cards */
+        .card {
+            background-color: var(--color-bg-secondary);
+            border-radius: var(--border-radius);
+            padding: 40px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 240px;
+            background-color: #E5E5E5;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 400 300"><rect fill="%23F5F5F7" width="400" height="300"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="20" fill="%23D1D1D6">Image Placeholder</text></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-content h3 {
+            margin-bottom: 12px;
+        }
+
+        .card-content p {
+            font-size: 1rem;
+            color: var(--color-text-secondary);
+            margin-bottom: 0;
+        }
+
+        /* Features Section */
+        .feature-section {
+            margin-top: 100px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 30px;
+            padding: 80px 40px;
+            text-align: center;
+        }
+
+        .feature-section h2 {
+            color: #fff;
+        }
+
+        .feature-section p {
+            color: #a1a1a6;
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .feature-item {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-item h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .feature-item p {
+            font-size: 0.9rem;
+            color: #d2d2d7;
+            margin: 0;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-top: 100px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 24px 0;
+        }
+
+        .faq-question {
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            margin-top: 16px;
+            color: var(--color-text-secondary);
+            font-size: 1rem;
+            display: none; /* Simple toggle logic would go here in JS */
+        }
+        
+        .faq-item:hover .faq-answer {
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--color-bg-secondary);
+            padding: 60px 20px;
+            margin-top: 100px;
+            font-size: 0.8rem;
+            color: var(--color-text-secondary);
+        }
+
+        .footer-content {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; } /* Simplified for mobile */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Mapo Select</a>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Locations</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1>마포 셔츠룸</h1>
+            <p class="text-secondary">단순한 유흥을 넘어선, 당신을 위한 프라이빗한 공간.<br>마포구의 새로운 밤문화를 경험하세요.</p>
+        </section>
+
+        <!-- Intro Content -->
+        <section style="margin-bottom: 60px;">
+            <p style="text-align: center; max-width: 800px; margin: 0 auto; font-size: 1.2rem; color: #333;">
+                안녕하세요, 마포의 밤을 책임지는 공간 안내자입니다. 오늘은 평범한 술자리와는 차원이 다른 '마포 셔츠룸'에 대해 이야기해볼까 해요. 처음 들어보신다고요? 걱정 마세요. 이곳은 격식보다는 편안함, 화려함보다는 세련됨을 추구하는 곳이에요. 마치 오래된 친구의 거실처럼 편안하지만, 디테일 하나하나가 고급스러운 공간. 그게 바로 마포 셔츠룸의 매력이지요.
+            </p>
+        </section>
+
+        <!-- Main Content Grid -->
+        <div class="grid-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-image" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'240\' viewBox=\'0 0 400 240\'><rect fill=\'%23eee\' width=\'400\' height=\'240\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23999\'>Private Room View</text></svg>');"></div>
+                <div class="card-content">
+                    <h3>프라이빗한 공간</h3>
+                    <p>누구의 눈치도 보지 않아도 되는 완전한 독립 공간. 오직 당신과 당신의 일행만을 위한 시간이 흘러갑니다.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-image" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'240\' viewBox=\'0 0 400 240\'><rect fill=\'%23eee\' width=\'400\' height=\'240\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23999\'>Premium Service</text></svg>');"></div>
+                <div class="card-content">
+                    <h3>1:1 맞춤 서비스</h3>
+                    <p>단순한 서빙을 넘어선 케어. 당신의 취향을 파악하고 그 순간에 가장 필요한 것을 먼저 제안하는 센스 있는 매니저들이 대기 중입니다.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-image" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'240\' viewBox=\'0 0 400 240\'><rect fill=\'%23eee\' width=\'400\' height=\'240\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%23999\'>Sophisticated Atmosphere</text></svg>');"></div>
+                <div class="card-content">
+                    <h3>세련된 분위기</h3>
+                    <p>화려한 네온사인은 잊으세요. 은은한 조명과 고급스러운 인테리어가 어우러진 차분한 분위기에서 진정한 대화를 나누세요.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature Section (Dark Mode) -->
+        <section class="feature-section">
+            <h2>왜 마포 셔츠룸인가요?</h2>
+            <p>기존의 гром嘈杂한 룸살롱 문화에 지치셨다면, 이곳이 정답입니다.</p>
+            
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>Secure & Safe</h4>
+                    <p>철저한 보안 시스템과 매니저 관리로 안전한 밤문화를 보장합니다.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>High-End Audio</h4>
+                    <p>음악을 사랑하는 당신을 위해 준비된 최상의 사운드 시스템.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Exclusive Menu</h4>
+                    <p>일반 주점에서는 맛볼 수 없는 프리미엄 주류와 안주 라인업.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2 style="text-align: center; margin-bottom: 40px;">자주 묻는 질문</h2>
+</body>
+</html>
