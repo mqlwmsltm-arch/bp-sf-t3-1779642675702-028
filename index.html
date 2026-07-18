@@ -1,107 +1,343 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <!-- BPAAS Design System & Theme -->
     <meta name="bpaas-design-system" content="editorial-apple">
     <meta name="bpaas-design-theme" content="kr-mono-chrome">
-
-    <!-- SEO Meta Tags -->
-    <title>마포 셔츠룸 | 프라이빗한 1:1 엔터테인먼트 공간 소개</title>
-    <meta name="description" content="마포구에서 가장 세련된 엔터테인먼트 문화를 경험하세요. 평범한 밤이 아닌 격조 높은 '마포 셔츠룸'에서의 프라이빗한 시간을 소개합니다. 차별화된 서비스와 고급스러운 분위기를 느껴보세요.">
-    <meta name="keywords" content="마포 셔츠룸, 마포 엔터테인먼트, 마포 프라이빗 룸, 마포 1:1, 고급 룸살롱, 마포 밤문화">
-    <link rel="canonical" href="https://sf-t3-1779642675702-028.pages.dev/">
-
+    <title>마포 셔츠룸, 프라이빗한 밤을 위한 완벽한 가이드 | AEGIS</title>
+    <meta name="description" content="마포 셔츠룸을 처음 방문하시는 분들을 위해 준비했습니다. 프라이빗한 보안 시스템부터 편안한 분위기까지, 완벽한 밤을 위한 솔직한 정보를 담았습니다.">
+    <meta name="keywords" content="마포 셔츠룸, 마포 보안 프록시, 마포 프라이빗, 마포 룸살롱, 마포 데이트, 마포 술집, 마포 유흥">
+    <link rel="canonical" href="https://sf-t3-1779642675702-028.maphoshirts.com/">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sf-t3-1779642675702-028.pages.dev/">
-    <meta property="og:title" content="마포 셔츠룸 | 프라이빗한 1:1 엔터테인먼트 공간 소개">
-    <meta property="og:description" content="마포구에서 가장 세련된 엔터테인먼트 문화를 경험하세요. 격조 높은 분위기에서 특별한 밤을 만들어드립니다.">
-    <meta property="og:image" content="https://placehold.co/1200x630/111111/ffffff?text=Mapo+Entertainment">
-
+    <meta property="og:url" content="https://sf-t3-1779642675702-028.maphoshirts.com/">
+    <meta property="og:title" content="마포 셔츠룸, 프라이빗한 밤을 위한 완벽한 가이드">
+    <meta property="og:description" content="프라이빗함과 보안이 완벽하게 보장된 마포의 새로운 밤 문화를 소개합니다.">
+    <meta property="og:image" content="https://sf-t3-1779642675702-028.pages.dev/assets/og-image.jpg">
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://sf-t3-1779642675702-028.pages.dev/">
-    <meta property="twitter:title" content="마포 셔츠룸 | 프라이빗한 1:1 엔터테인먼트 공간 소개">
-    <meta property="twitter:description" content="마포구에서 가장 세련된 엔터테인먼트 문화를 경험하세요. 격조 높은 분위기에서 특별한 밤을 만들어드립니다.">
-    <meta property="twitter:image" content="https://placehold.co/1200x630/111111/ffffff?text=Mapo+Entertainment">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 셔츠룸, 프라이빗한 밤을 위한 완벽한 가이드">
+    <meta name="twitter:description" content="프라이빗함과 보안이 완벽하게 보장된 마포의 새로운 밤 문화를 소개합니다.">
+    
+    <style>
+        /* Design System: Swiss Minimal / Mono Chrome */
+        :root {
+            --bg-color: #ffffff;
+            --text-main: #111111;
+            --text-sub: #666666;
+            --accent: #000000;
+            --border: #e5e5e5;
+            --font-main: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            --spacing-unit: 1rem;
+            --container-width: 1024px;
+        }
 
-    <!-- JSON-LD Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "마포 셔츠룸",
-      "image": "https://placehold.co/1200x630/111111/ffffff?text=Mapo+Entertainment",
-      "telephone": "010-6279-0862",
-      "url": "https://sf-t3-1779642675702-028.pages.dev/",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "서울시 마포구",
-        "address
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
 
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
 
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.2s ease;
+        }
 
+        a:hover {
+            opacity: 0.6;
+        }
 
+        ul {
+            list-style: none;
+        }
 
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
 
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
+        /* Layout Utilities */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-unit);
+        }
+
+        .section {
+            padding: 4rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: 3rem; }
+        h2 { font-size: 2rem; }
+        h3 { font-size: 1.5rem; }
+        p { margin-bottom: 1.5rem; color: var(--text-sub); }
+
+        /* Navigation */
+        .nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+        }
+
+        .brand-logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text-main);
+            margin: 5px 0;
+        }
+
+        /* Content Styles */
+        .article-header {
+            padding: 6rem 0 4rem;
+            text-align: center;
+        }
+
+        .article-meta {
+            font-size: 0.875rem;
+            color: var(--text-sub);
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .article-content {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .article-content p {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .highlight-box {
+            background: #f5f5f5;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border-left: 4px solid var(--accent);
+        }
+
+        .cta-section {
+            background: var(--text-main);
+            color: var(--bg-color);
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        .cta-section h2 {
+            color: var(--bg-color);
+        }
+
+        .cta-section p {
+            color: #ccc;
+            max-width: 500px;
+            margin: 0 auto 2rem;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: var(--bg-color);
+            color: var(--text-main);
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.2s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            opacity: 1;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.25rem; }
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+            .article-header { padding: 4rem 0 2rem; }
+            .article-content p { font-size: 1rem; }
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="container">
+        <nav class="nav-bar">
+            <a href="#" class="brand-logo">AEGIS</a>
+            <div class="nav-links">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Locations</a>
+                <a href="#" class="tel-link">010-0000-0000</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Article Header -->
+        <section class="section article-header">
+            <div class="container">
+                <h1>마포 셔츠룸, <br>처음이라면 꼭 알아야 할 것들</h1>
+                <div class="article-meta">
+                    <span>Written by AEGIS Team</span>
+                    <span>•</span>
+                    <span>Updated 2024. 05. 20</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Article Body -->
+        <section class="section">
+            <div class="container article-content">
+                <p>안녕하세요, 에이지스 (AEGIS) 입니다. 마포에서 특별한 밤을 보내고 싶지만, 어디서부터 시작해야 할지 막막하신가요? '셔츠룸'이라는 단어는 들어봤지만 정확히 어떤 곳인지, 어떻게 이용해야 하는지 궁금해하시는 분들이 정말 많아요.</p>
+                
+                <p>오늘은 마포 셔츠룸을 처음 방문하시는 분들을 위해, 저희가 가장 중요하게 생각하는 '프라이빗'과 '보안'에 대한 이야기를 솔직하게 풀어보려고 합니다. 딱딱한 설명서 대신, 친한 친구에게 알려주듯 편하게 읽어주세요.</p>
+
+                <div class="highlight-box">
+                    <h3>💡 왜 '셔츠룸'일까요?</h3>
+                    <p style="margin-bottom: 0;">일반적인 유흥업소와 달리, 셔츠룸은 격식 없는 편안한 복장 (셔츠 차림) 으로 방문해도 전혀 어색하지 않은 공간을 의미해요.堅固한 보안 시스템 안에서 오직 당신과 당신의 일행만을 위한 시간이 보장되죠.</p>
+                </div>
+
+                <h2>1. 완벽한 보안, 그 이상의 프라이빗</h2>
+                <p>마포 셔츠룸의 가장 큰 매력은 단연 '보안'입니다. 에이지스는 단순한 출입 통제를 넘어, 고객님의 신원과 일정이 외부에 노출되지 않도록 다층적인 보안 프로토콜을 적용하고 있어요.</p>
+                <p>엘리베이터를 타고 올라가는 순간, 세상의 소음은 차단되고 오직 당신을 위한 공간이 펼쳐집니다. 누구의 눈치도 볼 필요 없이, 진정한 휴식을 취할 수 있는 곳이죠.</p>
+
+                <h2>2. 마음을 녹이는 서비스의 시작</h2>
+                <p>"서비스가 너무 과하면 오히려 불편하지 않나요?" 라는 질문을 종종 받아요. 저희의 철학은 '恰到한 배려'입니다.</p>
+                <p>필요할 때 나타나고, 원할 때 사라지는 공기 같은 서비스. 하지만 당신의 취향과 니즈는 누구보다 빠르게 파악하여 최상의 환경을 만들어 드립니다. 마포 셔츠룸에서의 시간은 단순한 술자리가 아니라, 지친 일상을 위로받는 치유의 시간이 되어야 합니다.</p>
+
+                <h2>3. 예약, 어떻게 해야 할까요?</h2>
+                <p>프라이빗한 공간을 유지하기 위해 예약제는 필수입니다. 하지만 과정은 놀라울 정도로 심플해요.</p>
+                <ul>
+                    <li>- <strong>1 단계:</strong> 홈페이지 또는 전용 채널을 통해 문의</li>
+                    <li>- <strong>2 단계:</strong> 인원 및 희망 시간 확인 (보안을 위해 간단한 본인 인증 필요)</li>
+                    <li>- <strong>3 단계:</strong> 안내 문자 수신 및 방문</li>
+                </ul>
+                <p>복잡한 절차 없이, 몇 분 만에 당신의 특별한 밤이 세팅됩니다.</p>
+
+                <h2>마무리하며</h2>
+                <p>마포 셔츠룸은 단순히 술을 마시는 곳이 아닙니다. 나만을 위한 공간에서 나를 돌아보고, 소중한 사람들과 교감하는 곳입니다. 에이지스는 그 시작점에서 당신과 함께하겠습니다.</p>
+                <p>다음 번 블로그에서는 마포 셔츠룸에서의 에티켓과 팁에 대해 더 자세히 이야기해볼게요. 기대해 주세요!</p>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section" style="background-color: #fafafa;">
+            <div class="container article-content">
+                <h2 class="text-center" style="margin-bottom: 2rem;">자주 묻는 질문 (FAQ)</h2>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Q. 첫 방문인데 눈치가 보일까요?</h3>
+                    <p style="margin-bottom: 0; font-size: 1rem;">전혀요. 스태프들이 처음 방문하신 고객을 위해 세심하게 안내해 드리며, 어색함이 없도록 최선을 다해 돕습니다.</p>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Q. 주차는 어떻게 하나요?</h3>
+                    <p style="margin-bottom: 0; font-size: 1rem;">마포구 내 위치 특성상 전용 주차공간이 협소할 수 있으나, 발레파킹 또는 인근 제휴 주차장을 무료로 이용하실 수 있도록 안내해 드립니다.</p>
+                </div>
+
+                <div>
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Q. 드레스 코드가 있나요?</h3>
+                    <p style="margin-bottom: 0; font-size: 1rem;">'셔츠룸'이라는 이름처럼 편안하고 단정한 복장 (셔츠, 슬랙스 등) 을 권장하지만, 강제성은 없습니다. 다만, 지나치게 노출이 심하거나 운동복 등의 복장은 제한될 수 있습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>지금 바로 당신의 프라이빗한 밤을 예약하세요</h2>
+                <p>완벽한 보안과 마음을 녹이는 서비스, 마포 에이지스에서 경험해보세요.</p>
+                <a href="tel:010-0000-0000" class="btn-primary">예약 문의하기</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section text-center" style="padding: 2rem 0; font-size: 0.8rem; color: #999;">
+        <div class="container">
+            <p>&copy; 2024 AEGIS Mapo. All rights reserved.</p>
+            <p>서울특별시 마포구 | 사업자 등록번호: 000-00-00000</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">마포 셔츠룸 선택 전에 확인할 체크리스트와 실패 사례</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 테라포밍 마스의 비너스 확장 게임 밸런스 분석 #### 검색 의도 대응1. **테라포밍 마스 게임 버전** 및 **확장팩에 대한 이해** - 어떤 버전에서 이런 문제 발생했는지? - 특정 확장팩이 게임 밸런스를 완전히 무너뜨린 건가? 2. **규칙 차이와 점토톱</p>
-      </div>
-      <a href="posts/checklist-001-1lzw9be.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">마포 셔츠룸 현장에서 놓치기 쉬운 포인트를 기록해봤다</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 포스트 DNA 1bd07a49 제목: 실패 사례 복기, 재발 방지 원칙 도출 — 마포 셔츠룸 현장에서 보다 효과적인 소셜 마케팅을 위한 지침 #### 관찰 기록 "아, 진짜... 이번에는 게임 밸런스가 완전히 무너진 실패 사례를 복기해볼까. 이건 바로 테라포밍 </p>
-      </div>
-      <a href="posts/field_note-002-5l69cb.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 포스트 DNA 9889b0fd 마포 셔츠룸의 진실, 알리익스프레스 소품은 왜 삽입되었을까? 아, 진짜... 블레이드 러너 파이널 컷에서 릭 데커드의 유니콘 꿈 시퀀스가 삽입된 진짜 이유는 무엇일까? 리들리 스콧 감독의 인터뷰 번복은 어디까지나 논란인가? ## 소</p>
-      </div>
-      <a href="posts/myth-002-1lzw9be.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">마포 셔츠룸 솔직 후기 — 3개월 써본 사람의 리얼 리뷰</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜... 게임 밸런스 전략 분석에서 봄플링 마스의 비너스 확장은 특정 2인 전략을 완전히 무너뜨리는 수치 기준이 돼 버렸습니다. 이는 보드게임 '희귀 에디션·룰 차이 아컴 호러 카드 에라타'의 중요한 요소를 강하게 갉아먹고 있습니다. ### 검색 의도 대응1. </p>
-      </div>
-      <a href="posts/review-001-5l69cb.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
+    </footer>
+
 </body>
 </html>
